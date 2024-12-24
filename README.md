@@ -1,6 +1,7 @@
 ## CodeGator.Email: 
 ---
 
+[![Build Status](https://dev.azure.com/codegator/CodeGator.Email/_apis/build/status%2FCodeGator.CodeGator.Email?branchName=main)](https://dev.azure.com/codegator/CodeGator.Email/_build/latest?definitionId=117&branchName=main)
 
 #### What does it do?
 This package contains email services used by various CodeGator solutions.
