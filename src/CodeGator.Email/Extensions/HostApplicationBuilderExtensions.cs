@@ -69,7 +69,7 @@ public static partial class HostApplicationBuilderExtensions
                 );
 
             var strategyOptions = emailServiceOptions.Value.Strategies.FirstOrDefault(x =>
-                x.Name == strategyName
+                x.Name.Equals(strategyName, StringComparison.InvariantCultureIgnoreCase)
                 );
 
             if (strategyOptions is null)
