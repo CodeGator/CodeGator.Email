@@ -154,8 +154,8 @@ public static partial class HostApplicationBuilderExtensions
 
                     var smtpClient = new SmtpClient()
                     {
-                        Host = strategyOptions.ServerAddress,
-                        Port = strategyOptions.ServerPort,
+                        Host = strategyOptions.Host,
+                        Port = strategyOptions.Port,
                         EnableSsl = strategyOptions.EnableSSL,
                         Timeout = strategyOptions.Timeout ?? -1,
                         Credentials = new NetworkCredential(

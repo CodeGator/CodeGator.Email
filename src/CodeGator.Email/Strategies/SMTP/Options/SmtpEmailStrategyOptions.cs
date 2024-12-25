@@ -17,13 +17,13 @@ public class SmtpEmailStrategyOptions : EmailStrategyOptions
     /// This property contains the host address for the SMTP client.
     /// </summary>
     [Required]
-    public string ServerAddress { get; set; } = null!;
+    public string Host { get; set; } = null!;
 
     /// <summary>
     /// This property contains the host post for the SMTP client.
     /// </summary>
     [Required]
-    public int ServerPort { get; set; }
+    public int Port { get; set; }
 
     /// <summary>
     /// This property contains the user name for the SMTP client.
